@@ -8,6 +8,19 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Oxygem", arial;
 }
 
+.button{
+  display: inline-block;
+  padding: .75em 1.5em;
+  background-color: #58c4c4;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: #37a0a0;
+}
+
 .top-header{
   text-align: center;
 }
@@ -36,4 +49,22 @@ h1, h2, h3, h4, h5, h6{
 
 .top-nav a:hover{
   background-color: #7c3792;
+}
+
+.top-content{
+  padding: 1em;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.top-content-title{
+  color: #612674;
+  font-size: 1.375em; /* 22 / 16 (tamanho que eu quero dividido pelo padrao*/
+  margin: 1.375em;
+}
+
+.top-content-subtitle{
+  color: #a87bb7;
+  font-size: 1em;
+  line-height: 1.5;
 }
