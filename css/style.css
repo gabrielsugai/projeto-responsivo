@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Oxygem", arial;
 }
 
+.clearfix:after{
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
 .button{
   display: inline-block;
   padding: .75em 1.5em;
@@ -139,4 +145,34 @@ padding-bottom:2em;
   font-size: 1.1em;
   text-decoration: none;
   color: white;
+}
+
+@media screen and (min-width: 48.75em) {
+  .top-header-logo{
+    float: left;
+  }
+  .top-nav{
+    background-color: transparent;
+    float: right;
+    margin-top: 25px;
+  }
+  .top-nav ul{
+    margin: 0;
+    padding: 0;
+  }
+  .top-nav li{
+    display: inline-block;
+  }
+  .top-nav a{
+    color: #713a84;
+  }
+  .top-nav a:hover{
+    background-color: #e7d9fc;
+  }
+  .top-content{
+    background-color: #521a66;
+  }
+  .top-content-title, .top-content-subtitle{
+    color: white;
+  }
 }
